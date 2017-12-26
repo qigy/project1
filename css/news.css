@@ -1,0 +1,84 @@
+/***************************主要内容*********************************/
+#main{
+	width:1200px;
+	margin:0 auto;
+	padding:20px 0 120px 0;
+}
+/********1.标题*********/
+nav{
+	width:1200px;
+	margin:0 auto;
+    padding-bottom: 15px;
+	font-size: 18px;
+    line-height: 25px;
+    border-bottom: 1px solid #b7b7b7;
+    position: relative;
+}
+nav>p{
+	font-size: 24px;
+    color: #333;
+}
+nav>i{
+	position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: 4px;
+    width: 80px;
+    border-bottom: 4px solid #fc6177;
+}
+/************2.新闻内容**************/
+section{
+	padding-top:60px;
+}
+/********1.左侧内容********/
+#lf_content{
+	width:800px;
+}
+#lf_content>div{
+    margin-bottom: 40px;
+	padding-bottom:50px;
+	border-bottom: 1px solid #b7b7b7;
+    font-size: 14px;
+    color: #999;
+}
+#lf_content>div>h2{
+	font-size: 24px;
+    color: #333;
+	font-weight:normal;
+}
+#lf_content>div>p{
+	line-height:40px;
+}
+#lf_content>div>p>span{
+	margin-right:40px;
+}
+#lf_content>div>div{
+	line-height: 23px;
+    color: #818181;
+}
+#lf_content>div>div>a{
+	color: #fc6177;
+}
+#lf_content>div:last-child{
+	border-bottom:none;
+}
+/*********2.右侧内容***********/
+#rt_content{
+	width:325px;
+}
+#rt_content>ul{
+	margin-bottom:40px;
+}
+#rt_content li.title{
+	font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+#rt_content a{
+	font-size: 14px;
+    color: #999;
+    line-height: 27px;
+}
+#rt_content a:hover {
+    color: #fc6177;
+}

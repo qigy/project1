@@ -1,0 +1,54 @@
+/*布局元素样式*/
+#nav,#header,#banner,#main,#footer{
+	width:1349px;
+	margin:0px auto;
+}
+/***************************主要内容*********************************/
+#main{
+	width:1200px;
+	margin:0 auto;
+	padding:20px 0 120px 0;
+}
+/********1.标题*********/
+nav{
+	width:1200px;
+	margin:0 auto;
+    padding-bottom: 15px;
+	font-size: 18px;
+    line-height: 25px;
+    border-bottom: 1px solid #b7b7b7;
+    position: relative;
+}
+nav>p{
+	font-size: 24px;
+    color: #333;
+}
+nav>i{
+	position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: 4px;
+    width: 80px;
+    border-bottom: 4px solid #fc6177;
+}
+/*******2.内容********/
+section{
+	padding-top:30px;
+	padding-left:120px;
+}
+section>p{
+	margin-bottom:10px;
+}
+section>div{
+	color: #818181;
+    line-height: 23px;
+    font-size: 14px;
+}
+section>div>p{
+	width:641px;
+	margin:10px auto;
+}
+section>div>span{
+	display:block;
+	margin:5px 0 20px 490px;
+}
